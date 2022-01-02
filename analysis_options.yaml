@@ -1,1 +1,6 @@
 include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Prefer constructors at the top level of classes definition
+      sort_constructors_first: true
